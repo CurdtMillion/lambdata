@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="another-lambdata", # the name that you will install via pip
-    version="1.0",
+    version="1.1",
     author="Curdt Million",
     author_email="curtcecil@gmail.com",
     description="A second try at doing Sprint 1 from Unit 3",
