@@ -3,7 +3,7 @@
 
 
 from pandas import DataFrame
-from my_lambdata.my_mod import enlarge
+from my_mod import enlarge
 
 print('HELLO')
 

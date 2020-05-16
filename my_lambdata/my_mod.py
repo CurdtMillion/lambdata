@@ -4,7 +4,7 @@ def enlarge(n):
     '''
     Multiplies a number by 100
 
-    Param: n (numberic / float / int)
+    Param: n (numeric / float / int)
 
     Return the enlarged number (numeric)
     '''
