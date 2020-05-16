@@ -1,6 +1,13 @@
 #my_mod.py
 
 def enlarge(n):
+    '''
+    Multiplies a number by 100
+
+    Param: n (numberic / float / int)
+
+    Return the enlarged number (numeric)
+    '''
     return n * 100
 
 
