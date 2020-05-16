@@ -3,7 +3,9 @@ another attempt at lambdata
 
 ## INstallation
 
-TODO
+'''
+pip install -i https://test.pypi.org/simple/ another-lambdata
+'''
 
 ## Usage
 
