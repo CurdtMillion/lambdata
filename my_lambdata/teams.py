@@ -1,9 +1,10 @@
 # example teams.py (oop approach)
 
 class Team():
-    def __init__(self, name, city):
+    def __init__(self, name, city='CITY NAME', players=[]):
         self.name = name
         self.city = city
+        self.players = players
 
 
     def advertise(self):
@@ -31,6 +32,7 @@ if __name__ == "__main__":
         #advertise(team)
         print(team.city)
         print(team.full_name)
+        print(team.players)
         team.advertise()
     
     # df1 = DataFrame({'x': [1,2,3], 'y': [4,5,6]})
