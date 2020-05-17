@@ -3,8 +3,8 @@ another attempt at lambdata
 
 ## INstallation
 
-'''
-pip install -i https://test.pypi.org/simple/ another-lambdata
+'''sh
+pip install -i https://test.pypi.org/simple/ another-lambdata==1.2
 '''
 
 ## Usage
