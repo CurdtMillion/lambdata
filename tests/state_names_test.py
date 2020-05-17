@@ -6,19 +6,16 @@ from my_lambdata.state_names import add_state_names
 # OBJECTIVE: test the add_state_names() function
 
 class TestStateNames(unittest.TestCase):
-
+      
     def test_add_state_names(self):
+        # expect that it has one more column and same amnt rows after we invoke the function
+        # expect that certain column names exist before and some after
 
         df = DataFrame({'abbrev': ['CA', 'CO', 'CT', 'DC', 'TX']})
-        result = add_state_names(df)
-
-        # after we invoke the function
-        # expect that it has one more column and same amnt rows
-        # expect that certain column names exist before and some after
+        self.assertEqual(list(df.columns), ['abbrev'])
         
-        breakpoint()
-        # df.columns
-        #self.assertEqual('foo'.upper(), 'FOO')
+        result = add_state_names(df)
+        self.assertEqual(list(result.columns), ['abbrev', 'name'])
 
 if __name__ == '__main__':
     unittest.main()
