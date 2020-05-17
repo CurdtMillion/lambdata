@@ -1,4 +1,4 @@
-# example teams.py (oop approach)
+# example teams.py (inheritance oop approach)
 
 class Team():
     def __init__(self, name, city='CITY NAME', players=['Player 1']):
@@ -35,9 +35,9 @@ class BaseballTeam():
 
 if __name__ == "__main__":
 
-    football_team = Team("Dalls", "Cowboys")
+    football_team = Team("Cowboys", "Dallas")
     print(football_team.full_name)
-    print(football_team.advertise())
+    football_team.advertise()
 
 
     teams = [
